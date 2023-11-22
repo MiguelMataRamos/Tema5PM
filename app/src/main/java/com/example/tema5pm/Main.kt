@@ -205,9 +205,17 @@ fun main() {
 //    println(persona.name)
 
 
-//    25. Run:
-//    Define una función calculateArea que toma la longitud y el ancho de un rectángulo y devuelve
-//    su área. Luego, utiliza run para imprimir el área de un rectángulo específico.
+////    25. Run:
+////    Define una función calculateArea que toma la longitud y el ancho de un rectángulo y devuelve
+////    su área. Luego, utiliza run para imprimir el área de un rectángulo específico.
+//
+//    class Rectangulo(var long:Double, var ancho:Double)
+//    var r = Rectangulo(5.0,3.0)
+//    r.run {
+//        println(long*ancho)
+//    }
+
+
 
 
 //    26. Let:
