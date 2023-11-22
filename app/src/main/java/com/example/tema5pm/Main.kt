@@ -1,6 +1,8 @@
 package com.example.tema5pm
 
 import java.lang.Exception
+import java.lang.StringBuilder
+import kotlin.math.sqrt
 
 fun main() {
 ////    1. Escribe una función que tome una cadena como parámetro e imprima su longitud.
@@ -140,4 +142,83 @@ fun main() {
 //    }finally {
 //        println("mensaje independientemente")
 //    }
+
+//    //    21. Infix Functions:
+////    Crea una clase Point con propiedades x e y. Implementa una función infix que calcule la
+////    distancia entre dos puntos.
+//    class Point(val x: Int, val y: Int)
+//
+//    infix fun Point.distancia(p: Point): Double {
+//        var x = this.x - p.x
+//        var y = this.y -p.y
+//
+//        return sqrt((x*x).toDouble() + (y*y).toDouble())
+//    }
+//
+//    var p1 = Point(2,2)
+//    var p2 = Point(1,1)
+//    var distancia = p1 distancia p2
+//    println(distancia)
+
+
+////    22. Lazy y Lateinit:
+////    Define una variable lazy que almacene la suma de dos números. La suma debe calcularse solo
+////    cuando se accede a la variable. Luego, usa lateinit para inicializar una variable de tipo
+////    String antes de asignarle un valor.
+//    val suma by lazy {
+//        30 + 39
+//    }
+//    println("Suma -> "+suma)
+//
+//    lateinit var string:String
+//    string = "hola"
+//    print(string)
+
+
+////    23. With:
+////    Utiliza la función with para configurar un objeto StringBuilder. Agrega tres líneas de texto
+////    al objeto y luego imprime el resultado.
+//    var b : StringBuilder = StringBuilder()
+//
+//    with(b){
+//        append("hola ")
+//        append("que ")
+//        append("tal")
+//    }
+//    println(b)
+
+
+////    24. Apply:
+////    Crea una clase Person con propiedades como name, age, y address. Utiliza la función apply para
+////    construir una instancia de Person con valores específicos.
+//    class Person(var name:String, var age:Int, var address:String)
+//    var persona = Person("Miguel",21,"csmn73")
+//
+//    println(persona.name)
+//
+//    persona.apply {
+//        name = "juju"
+//        age = 99
+//        address = "calle amor"
+//    }
+//
+//    println(persona.name)
+
+
+//    25. Run:
+//    Define una función calculateArea que toma la longitud y el ancho de un rectángulo y devuelve
+//    su área. Luego, utiliza run para imprimir el área de un rectángulo específico.
+
+
+//    26. Let:
+//    Declara una cadena nullable y utiliza la función let para
+//            imprimir su longitud solo si no es nula.
+
+
+//    27. Also:
+//    Crea una lista de números y utiliza la función also para
+//    imprimir un mensaje antes y después de aplicar una
+//    operación a cada elemento de la lista.
+
+
 }
