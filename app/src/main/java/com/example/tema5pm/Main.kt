@@ -216,17 +216,26 @@ fun main() {
 //    }
 
 
+////    26. Let:
+////    Declara una cadena nullable y utiliza la función let para imprimir su longitud solo si no es
+////    nula.
+//    var cadena:String? = null
+//
+//    cadena?.let {
+//        println(it.length)
+//    }?: println("La cadena es nula")
 
 
-//    26. Let:
-//    Declara una cadena nullable y utiliza la función let para
-//            imprimir su longitud solo si no es nula.
-
-
-//    27. Also:
-//    Crea una lista de números y utiliza la función also para
-//    imprimir un mensaje antes y después de aplicar una
-//    operación a cada elemento de la lista.
-
+////    27. Also:
+////    Crea una lista de números y utiliza la función also para imprimir un mensaje antes y después
+////    de aplicar una operación a cada elemento de la lista.
+//    var numeros = listOf(0,1,2,3,4,5,6,7,8,9)
+//
+//    val resultado = numeros.map { it * 2 }.also {
+//            println("Antes de la operación: $numeros")
+//            println("Después de la operación: $it")
+//        }
+//
+//    }
 
 }
